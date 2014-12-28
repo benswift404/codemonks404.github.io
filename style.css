@@ -3,4 +3,10 @@ body {
   color: brown;
   text-align: center;
   font-size: 50px;
+  font-family: "Comic Sans MS";
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: blue;
 }
