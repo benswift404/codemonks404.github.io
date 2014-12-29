@@ -1,6 +1,6 @@
-/********\
-   Body
-\********/
+/*******\
+  Body
+\*******/
 
 
 body {
@@ -12,13 +12,8 @@ body {
 
 a, a:hover{
   text-decoration: none;
-  color: black;
+  color: brown;
 
-}
-
-img {
-  margin: auto;
-  display: block;
 }
 
 #TW a:hover {
@@ -31,9 +26,11 @@ img {
   text-align: center;
 }
 
-/********\
-   Nav
-\********/
+
+
+/*********\
+    Nav
+\*********/
 
 nav li {
   list-style: none;
@@ -44,7 +41,4 @@ nav li {
 nav a {
   text-decoration: none;
   text-align: center;
-}
-nav a:hover {
-  color: #CC6600;
 }
