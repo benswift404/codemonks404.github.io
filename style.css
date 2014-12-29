@@ -2,16 +2,34 @@ body {
   background-color: orange;
   color: brown;
   text-align: center;
-  font-size: 50px;
   font-family: "Comic Sans MS";
 }
 
 a, a:hover{
   text-decoration: none;
-  color: blue;
+  color: brown;
+
 }
 
 img {
   margin: auto;
   display: block;
+}
+
+nav {
+
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+  color: #CC6600;
 }
