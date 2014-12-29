@@ -1,0 +1,44 @@
+/*******\
+  Body
+\*******/
+
+
+body {
+  background-color: orange;
+  color: brown;
+  text-align: center;
+  font-family: "Comic Sans MS";
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: brown;
+
+}
+
+#TW a:hover {
+  text-shadow: 2px 2px #CC6600;
+}
+
+#copy {
+  font-size: 10px;
+  font-family: "Arial black";
+  text-align: center;
+}
+
+
+
+/*********\
+    Nav
+\*********/
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+}
