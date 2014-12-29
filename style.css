@@ -1,3 +1,8 @@
+/********\
+   Body
+\********/
+
+
 body {
   background-color: orange;
   color: brown;
@@ -16,9 +21,19 @@ img {
   display: block;
 }
 
-nav {
-
+#TW a:hover {
+  text-shadow: 2px 2px #CC6600;
 }
+
+#copy {
+  font-size: 10px;
+  font-family: "Arial black";
+  text-align: center;
+}
+
+/********\
+   Nav
+\********/
 
 nav li {
   list-style: none;
