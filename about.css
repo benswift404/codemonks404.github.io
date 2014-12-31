@@ -42,3 +42,14 @@ nav a {
   text-decoration: none;
   text-align: center;
 }
+/********\
+Footer: Social
+\********/
+#social {
+  margin-right: 40px;
+
+}
+#social li {
+  display: inline-block;
+
+}
