@@ -48,3 +48,14 @@ nav a {
 nav a:hover {
   color: #CC6600;
 }
+/********\
+Footer: Social
+\********/
+#social {
+  margin-right: 40px;
+
+}
+#social li {
+  display: inline-block;
+
+}
