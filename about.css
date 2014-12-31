@@ -10,10 +10,14 @@ body {
   font-family: "Comic Sans MS";
 }
 
-a, a:hover{
+a {
   text-decoration: none;
-  color: brown;
+  color: black;
 
+}
+
+a:hover {
+  color: brown;
 }
 
 #TW a:hover {
