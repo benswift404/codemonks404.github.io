@@ -35,6 +35,9 @@ img {
   padding-top: 50px;
 }
 
+.img {
+  background-size: 100%;
+}
 /********\
    Nav
 \********/
