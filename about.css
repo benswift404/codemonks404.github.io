@@ -20,10 +20,6 @@ a:hover {
   color: brown;
 }
 
-#TW a:hover {
-  text-shadow: 2px 2px #CC6600;
-}
-
 #copy {
   font-size: 10px;
   font-family: "Arial black";
@@ -33,21 +29,40 @@ a:hover {
 .top {
   padding-top: 50px;
 }
-
-
-/*********\
-    Nav
-\*********/
-
-nav li {
+.monks {
+  text-align: center;
   list-style: none;
-  display: inline;
-  margin-right: 40px;
+  color: inherit;
+  font-size: 25px;
 }
 
-nav a {
-  text-decoration: none;
+.staff {
   text-align: center;
+  list-style: none;
+  color: inherit;
+  font-size: 25px;
+}
+
+.staff a {
+  text-decoration: none;
+  color: inherit;
+}
+.staff a:hover {
+  text-shadow: 2px 2px #CC6600;
+}
+#email {
+  font-size: 20px;
+
+}
+#email a {
+  text-decoration: none;
+  color: red;
+}
+#email a:hover {
+  text-shadow: 2px 2px dodgerblue;
+}
+#monks {
+  margin-left: 10px;
 }
 /********\
 Footer: Social
