@@ -1,0 +1,33 @@
+/********
+Body
+********/
+
+
+body {
+  background-color: orange;
+  color: brown;
+  text-align: center;
+  font-family: "Comic Sans MS";
+}
+.lang {
+  text-align: center;
+  display: inline;
+}
+#h2 {
+  padding-top: 40px;
+}
+#copy {
+  font-size: 10px;
+  font-family: "Arial black";
+  text-align: center;
+}
+/********
+Footer: Social
+********/
+#social {
+  margin-right: 40px;
+}
+
+#social li {
+  display: inline-block;
+}
