@@ -38,6 +38,11 @@ img {
 .img {
   background-size: 100%;
 }
+
+.video {
+  display: block;
+  margin-left: 500px;
+}
 /********\
    Nav
 \********/
