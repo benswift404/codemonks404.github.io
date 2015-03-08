@@ -1,89 +1,436 @@
-  <!DOCTYPE html>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> Code Monks | Home </title>
+<head>
+	<title>Code Monks - Home</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link type="image/x-icon" rel="icon" href="favicon.ico"/>
+	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+	<!--web-font-->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+	<!--//web-font-->
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Taisteal Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- //Custom Theme files -->
+	<!-- js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<!-- //js -->
+	<!-- start-smoth-scrolling-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--banner-->
+	<div class="banner">
+		<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-logo">
+				<a href="index.html"><img src="images/codemonks.png" alt="logo" height="100px" width="100px"/></a>
+			</div>
+			<div class="top-nav">
+				<span class="menu"> </span>
+				<ul class="nav1">
+					<li><a href="index.html" class="active scroll">HOME</a></li>
+					<li><a href="#about" class="scroll">ABOUT</a></li>
+					<li><a href="#skills" class="scroll">SKILLS</a></li>
+					<li><a href="#footer" class="scroll">CONTACT</a></li>
+					<li><a href="#footer" class="scroll">OTHER</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				 <script>
+				   $( "span.menu" ).click(function() {
+					 $( "ul.nav1" ).slideToggle( 300, function() {
+					 // Animation complete.
+					  });
+					 });
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//header-->
+		<div class="container">
+			<div class="banner-title">
+				<h1>Welcome to Code Monks!</h1>
+				<div class="download">
+					<a href="#">More about Code Monks</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	<div class="about" id="about">
+		<div class="container">
+			<h3>Special Announcements!</h3>
+			<span></span>
+			<p>Here we have new announcements on new things that we would like to share. </p>
+		</div>
+	</div>
+	<div class="about-bottom">
+			<div class="col-md-6 about-bottom-left">
+				<h4>Check out Java SE 8 by Oracle!</h4>
+				<object id="flashObj" width="640" height="358" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&isUI=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=3391370021001&linkBaseURL=http%3A%2F%2Fwww.oracle.com%2Fevents%2Fus%2Fen%2Fjava8%2Findex.html&playerID=1787102915001&playerKey=AQ~~,AAAAAFcSbzI~,OkyYKKfkn3xPOduPEsqhjskdCvDxqymz&domain=embed&dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&isUI=1" bgcolor="#FFFFFF" flashVars="videoId=3391370021001&linkBaseURL=http%3A%2F%2Fwww.oracle.com%2Fevents%2Fus%2Fen%2Fjava8%2Findex.html&playerID=1787102915001&playerKey=AQ~~,AAAAAFcSbzI~,OkyYKKfkn3xPOduPEsqhjskdCvDxqymz&domain=embed&dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="640" height="358" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" allowScriptAccess="always" swLiveConnect="true" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>
+				<div class="read-more">
+					<a href="http://www.oracle.com/events/us/en/java8/index.html">More about Java SE 8<span></span></a>
+				</div>
+			</div>
+			<div class="col-md-6 about-bottom-right">
+				<img src="images/olinux.png" alt="Oracle Linux">
+			</div>
+			<div class="clearfix"> </div>
+	</div>
+	<div class="service">
+		<div class="container">
+			<h4>About us</h4>
+			<p>We are all apart of OptimalBit, however, this is where we each discuss our personal projects being worked on at this time.   </p>
+			<div class="service-grids">
+				<div class="col-md-4">
+					<img src="images/icon1.png" alt=""/>
+					<h5>Chris' Website</h5>
+					<p>Code Monk Chris will be building out his brand new website. </p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/icon2.png" alt=""/>
+					<h5>OptimalBit iOS application</h5>
+					<p>Code Monk Ben is currently working on an app for OptimalBit. </p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/icon3.png" alt=""/>
+					<h5>Vipul switching to iOS</h5>
+					<p>Code Monk Vipul will be making a full switch from doing development for Android to development for iOS using Swift and Objective-C. </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--skills-->
+	<div class="skills" id="skills">
+		<div class="container">
+			<h4>OUR SKILLS</h4>
+			<div class="skill-circles">
+				<div class="circle-grids">
+					<div class="circle" id="circles-1"><img src="images/Swift_Logo.png" alt="" height="200px" width="200px"></div>
+					<lable>Swift</lable>
+				</div>
+				<div class="circle-grids">
+					<div class="circle" id="circles-2"><img src="images/java_cup.png" alt="" height="200px" width="200px"></div>
+					<lable>Java</lable>
+				</div>
+				<div class="circle-grids">
+					<div class="circle" id="circles-3"><img src="images/icon-ruby.png" alt="" height="200px" width="200px"></div>
+					<lable>Ruby</lable>
+				</div>
+				<div class="circle-grids">
+					<div class="circle" id="circles-4"><img src="images/html5.png" alt="" height="200px" width="200px"></div>
+					<lable>HTML/CSS</lable>
+				</div>
+				<div class="circle-grids crcl-5">
+					<div class="circle" id="circles-5"><img src="images/python.png" alt="" height="200px" width="200px"></div>
+					<lable>Python</lable>
+				</div>
+				<div class="clearfix"> </div>
+				<!--script
+				<script type="text/javascript" src="js/circles.js"></script>
+					<script>
+						var colors = [
+								['#79796D', '#FFFFFF'], ['rgb(69, 69, 59)', '#FFFFFF'], ['#1F1E19', '#FFFFFF'], ['#1F1E19', '#FFFFFF'],['#0F0E0A', '#FFFFFF']
+							];
+						for (var i = 1; i <= 5; i++) {
+							var child = document.getElementById('circles-' + i),
+								percentage = 75;
 
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
-    <link type="image/x-icon" rel="icon" href="favicon.ico"/>
-    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Code Monks</a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-              <li><a href="about.html">About</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="http://www.optimalbit.com/">OptimalBit</a></li>
-                  <li><a href="http://christiancross222.github.io/">Chris's Site</a></li>
-                  <li><a href="http://www.swift404.com/">Ben's Site</a></li>
-                  <li><a href="http://mikelpartridge.github.io/">Mike's Site</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-left">
-              <li><a href="Other.html">Other</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-
-    </header>
-    <section>
-        <h1 class="top">Welcome to Code Monks!</h1>
-        <img src="codemonks.png" alt="Code Monks" height="400px" width="500px">
-        <p>Code Monks is a branch off of <strong>OptimalBit</strong></p>
-        <p>Here, we dicuss coding projects going on within <strong>OptimalBit</strong>, individually.</p>
-        <p><strong>Check out Java SE 8 by Oracle!</strong></p>
-
-        <!--<div class="video">
-          <iframe src="https://embed-ssl.ted.com/talks/simon_sinek_how_great_leaders_inspire_action.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-        </div>-->
-
-        <object id="flashObj" width="640" height="358" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&isUI=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=3391370021001&linkBaseURL=http%3A%2F%2Fwww.oracle.com%2Fevents%2Fus%2Fen%2Fjava8%2Findex.html&playerID=1787102915001&playerKey=AQ~~,AAAAAFcSbzI~,OkyYKKfkn3xPOduPEsqhjskdCvDxqymz&domain=embed&dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&isUI=1" bgcolor="#FFFFFF" flashVars="videoId=3391370021001&linkBaseURL=http%3A%2F%2Fwww.oracle.com%2Fevents%2Fus%2Fen%2Fjava8%2Findex.html&playerID=1787102915001&playerKey=AQ~~,AAAAAFcSbzI~,OkyYKKfkn3xPOduPEsqhjskdCvDxqymz&domain=embed&dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="640" height="358" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" allowScriptAccess="always" swLiveConnect="true" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>
-
-
-
-    </section>
-    <footer>
-      <hr width="800px" color="brown"></hr>
-      <ul id="social">
-        <li><a href="https://www.facebook.com/groups/780772171972318/"><img src="facebook.png"  alt="Facebook"></a></li>
-        <li><a href="https://twitter.com/CodeMonks404"><img src="twitter.png"  alt="Twitter"></a></li>
-      </ul>
-      <p id="copy"> &copy; Code Monks | 2015 </p>
-    </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-  </body>
+							Circles.create({
+								id:         child.id,
+								percentage: 75,
+								radius:     80,
+								width:      4,
+								number:   	85,
+								text:       '%',
+								colors:     colors[i - 1]
+							});
+						}
+					</script>-->
+				<!--/end-->
+			</div>
+		</div>
+	</div>
+	<!--//skills-->
+	<!--team-->
+	<!--<div class="team" id="team">
+		<div class="container">
+			<div class="about">
+				<h3>OUR TEAM MEMBERS</h3>
+				<span></span>
+				<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim </p>
+			</div>
+			<div class="team-grids">
+				<div class="col-md-4 team-grids-info">
+					<img src="images/img7.jpg" alt=""/>
+					<div class="team-grids-text">
+						<h3>MITCHELL ANDERSON</h3>
+						<h5>CREATIVE DIRECTOR</h5>
+					</div>
+					<div class="icons">
+						<ul>
+							<li><a href="#"></a></li>
+							<li><a href="#"class="fb"></a></li>
+							<li><a href="#"class="in"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 team-grids-info">
+					<img src="images/img13.jpg" alt=""/>
+					<div class="team-grids-text">
+						<h3>MITCHELL ANDERSON</h3>
+						<h5>CREATIVE DIRECTOR</h5>
+					</div>
+					<div class="icons">
+						<ul>
+							<li><a href="#"></a></li>
+							<li><a href="#"class="fb"></a></li>
+							<li><a href="#"class="in"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 team-grids-info">
+					<img src="images/img7.jpg" alt=""/>
+					<div class="team-grids-text">
+						<h3>MITCHELL ANDERSON</h3>
+						<h5>CREATIVE DIRECTOR</h5>
+					</div>
+					<div class="icons">
+						<ul>
+							<li><a href="#"></a></li>
+							<li><a href="#"class="fb"></a></li>
+							<li><a href="#"class="in"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>-->
+	<!--//team-->
+	<!--clients-->
+	<div class="our-clients">
+		<div class="container">
+			<!-- banner-text Slider starts Here -->
+				<script src="js/responsiveslides.min.js"></script>
+				 <script>
+					// You can also use "$(window).load(function() {"
+						$(function () {
+						// Slideshow 4
+							$("#slider3").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+							}
+						});
+					});
+				</script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<h4>WHAT OUR CLIENTS ARE SAYING</h4>
+						<p>“It was a pleasure to work with Imran. He is very dedicated and professional.  He worked very hard to satisfy our requirements and the communication was great .”</p>
+						<span>John Doe</span>
+						<a href="#">www.yourwebsite.zt</a>
+					</li>
+					<li>
+						<h4>OUR CLIENTS ARE SAYING WHAT</h4>
+						<p>“It was a pleasure to work with Imran. He is very dedicated and professional.  He worked very hard to satisfy our requirements and the communication was great .”</p>
+						<span>Doe John</span>
+						<a href="#">www.yourwebsite.zt</a>
+					</li>
+					<li>
+						<h4>COMMENTS OF OUR CLIENTS</h4>
+						<p>“It was a pleasure to work with Imran. He worked very hard to satisfy our requirements and the communication was great . He is very dedicated and professional. ”</p>
+						<span>MR.John Doe</span>
+						<a href="#">www.yourwebsite.zt</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--//clients-->
+	<!--blog-->
+	<div class="blog" id="blog">
+		<div class="container">
+			<div class="about">
+				<h3>People we learn from</h3>
+				<span> </span>
+			</div>
+			<div class="blog-grids">
+				<div class="blog-grids-left">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/mh45igK4Esw" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="blog-grids-right">
+					<h4><a href="#">Elon Musk: Co-Founder and CEO of Tesla and SpaceX </a></h4>
+					<p>Musk will change the world <a href="#" class="bracket">[...]</a> </p>
+				</div>
+				<div class="clearfix"> </div>
+				<div class="caption-imag">
+					<div class="round-shape">
+						<p>a</p>
+					</div>
+				</div>
+			</div>
+			<div class="blog-grids">
+				<div class="blog-grids-left lt-text">
+					<h4><a href="#">Larry Ellison: Co-Founder and CEO of Oracle </a></h4>
+					<p>Ellison is the Co-Founder and CEO of Oracle. <a href="#" class="bracket">[...]</a></p>
+				</div>
+				<div class="blog-grids-right rt-img">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/mB2V0BXH608" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="clearfix"> </div>
+				<div class="caption-imag">
+					<div class="round-shape">
+						<p>a</p>
+					</div>
+				</div>
+			</div>
+			<div class="blog-grids">
+				<div class="blog-grids-left">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/5fI3zz2cp3k" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="blog-grids-right">
+					<h4><a href="#">Steve Jobs: Co-Founder and CEO of Apple </a></h4>
+					<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+						esse molestie consequat, vel illum dolore eu feugiat nulla
+						facilisis at vero eros et accumsan et iusto odio dignissim qui <a href="#" class="bracket">[...]</a> </p>
+				</div>
+				<div class="clearfix"> </div>
+				<div class="caption-imag">
+					<div class="round-shape">
+						<p>a</p>
+					</div>
+				</div>
+			</div>
+			<div class="blog-grids">
+				<div class="blog-grids-left lt-text">
+					<h4><a href="#">Mark Zuckerberg: Co-Founder and CEO of Facebook </a></h4>
+					<p>Zuckerberg <a href="#" class="bracket">[...]</a></p>
+				</div>
+				<div class="blog-grids-right rt-img">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/5WiDIhIkPoM" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="clearfix"> </div>
+				<div class="caption-imag">
+					<div class="round-shape">
+						<p>a</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//blog-->
+	<!--footer-->
+	<div class="footer" id="footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-logo">
+					<a href="index.html"><img src="images/logo.png" alt="logo"/></a>
+					<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</p>
+					<p class="logo-text">eugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+						 luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta</p>
+				</div>
+				<div class="col-md-3 recent-posts">
+					<h4>RECENT POSTS</h4>
+					<div class="recent-posts-text">
+						<h5>MARCH 30, 2014</h5>
+						<p>Duis autem vel eum iriure dolor</p>
+					</div>
+					<div class="recent-posts-text">
+						<h5>MARCH 30, 2014</h5>
+						<p>Duis autem vel eum iriure dolor</p>
+					</div>
+					<div class="recent-posts-text">
+						<h5>MARCH 30, 2014</h5>
+						<p>Duis autem vel eum iriure dolor</p>
+					</div>
+				</div>
+				<div class="col-md-3 recent-posts">
+					<h4>TWITER FEEDS</h4>
+					<div class="recent-posts-text">
+						<h5>about 2 days ago<span>@kristianplatt</span></h5>
+						<p>Good work buddy</p>
+					</div>
+					<div class="recent-posts-text">
+						<h5>about 2 days ago <span>@fasteven</span></h5>
+						<p>Good work buddy</p>
+					</div>
+					<div class="recent-posts-text">
+						<h5>about 2 days ago <span>@streamer</span> </h5>
+						<p>Good work buddy</p>
+					</div>
+				</div>
+				<div class="col-md-3 address">
+					<h4>OUR ADDRESS</h4>
+					<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,
+						luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta </p>
+					<ul>
+						<li><span></span>Moonshine St. 14/05 Light, Jupiter</li>
+						<li><span class="ph-no"></span>+00 (123) 456 78 90</li>
+						<li><span class="mail"></span><a href="mailto:example@email.com">mail@example.com</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//footer-->
+	<div class="footer-bottom">
+		<p>© 2015 All rights reserved | <a href="http://w3layouts.com/">Design</a></p>
+	</div>
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+</body>
 </html>
