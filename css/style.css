@@ -240,7 +240,7 @@ a:focus,a:active{
 	margin: 1.2em 0 1em 0;
 }
 .skills {
-	background: url(../images/img2.jpg) no-repeat -55px 0px;
+	background-color: #1c1c1c;
 	background-size: cover;
 	min-height: 460px;
 	padding: 6em 0;
