@@ -1103,7 +1103,7 @@ form {
 /*---- responsive-design -----*/
 @media(max-width:1440px){
 .banner {
-	background: url(../images/banner.jpg) no-repeat 0px -118px;
+	background: url(../images/sf.png) no-repeat 0px -118px;
 	background-size: cover;
 }
 .banner-title {
@@ -1121,7 +1121,7 @@ form {
 }
 @media(max-width:1366px){
 .banner {
-	background: url(../images/banner.jpg) no-repeat 0px -53px;
+	background: url(../images/sf.png) no-repeat 0px -53px;
 	background-size: cover;
 }
 .banner-title {
